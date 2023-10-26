@@ -60,7 +60,7 @@
 }
 
 .footer-button .text {
-  position: absolute;
+  /* position: absolute; */
   top: 25%;
   left: 5%;
   transform: translateX(0);
@@ -80,7 +80,7 @@
   background-repeat: no-repeat;
   background-position: center;
   border: none;
-  position: absolute;
+  /* position: absolute; */
   top: 8%;
   right: 2%;
   transform: translateY(0%);
@@ -243,7 +243,7 @@ a {
 }
 
 .mobile-footer-button .mobile-text {
-  position: absolute;
+  /* position: absolute; */
   top: 25%;
   left: 5%;
   transform: translateX(0);
@@ -263,7 +263,7 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   border: none;
-  position: absolute;
+  /* position: absolute; */
   top: 8%;
   right: 2%;
   transform: translateY(0%);
@@ -359,10 +359,6 @@ a {
 }
 }
 
-*{
-
-    margin: 0;
-    padding: 0;
 .h1{
     text-align: center;
     color: #73c0df;
@@ -373,15 +369,14 @@ a {
     
 }
 .slider-wrapper{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     width: 100%;
-    height: 80vh;
+    /* height: 80vh; */
     position: relative;
     margin: 0 auto;
     
 }
 .slider{
-    background-color: #73c0df;
     justify-content: space-between;
     display: flex;
     aspect-ratio: 16/9;
@@ -391,19 +386,8 @@ a {
     box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
     border-radius: 0.5rem;
 }
-.image{
-    width: 474px;
-    height: 616px;
-    background-color: aqua;
-}
 
-.slider .image img{
-    flex: 1 0 100%;
-    /* scroll-snap-align: start; */
-    object-fit: cover;
-    width:100%;
-    height: 100%;
-}
+
 .slider-nav{
     display: flex;
     column-gap: 1rem;
@@ -451,7 +435,7 @@ body{
    }
     /* education solution design */
    .education-solutions{
-    position: absolute;
+    /* position: absolute; */
     /* background-color: white; */
     width: 90%;
     margin: 1% 0 0 5%;
